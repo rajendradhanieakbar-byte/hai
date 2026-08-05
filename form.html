@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Praktikum Form</title>
+  </head>
+  <body>
+    <h1>Form Pendaftaran SPMB</h1>
+    <form>
+      <table>
+        <tr>
+          <td><label>Nama Lengkap</label></td>
+          <td>:</td>
+          <td><input type="text" required placeholder="Masukkan Nama Lengkap"><br></td>
+        </tr>
+        <tr>
+          <td><label>NIK</label></td>
+          <td>:</td>
+          <td><input type="number"><br></td>
+        </tr>
+        <tr>
+          <td><label>Email</label></td>
+          <td>:</td>
+          <td><input type="email"><br></td>
+        </tr>
+        <tr>
+          <td><label>Password</label></td>
+          <td>:</td>
+          <td><input type="password"><br></td>
+        </tr>
+        <tr>
+          <td><label>Alamat</label></td>
+          <td>:</td>
+          <td><textarea placeholder="Masukkan Alamat"></textarea><br></td>
+        </tr>
+        <tr>
+          <td><label>Tanggal Lahir</label></td>
+          <td>:</td>
+          <td><input type="date"><br></td>
+        </tr>
+        <tr>
+          <td><label>Jenis Kelamin</label></td>
+          <td>:</td>
+          <td>
+            <input type="radio" name="jenisKelamin">LakiLaki
+            <input type="radio" name="jenisKelamin">Perempuan<br>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Mata Pelajaran yang disukai</label></td>
+          <td>:</td>
+          <td>
+            <input type="checkbox" name="mapel">Matematika
+            <input type="checkbox" name="mapel">B inggris
+            <input type="checkbox" name="mapel">B Indonesia
+            <input type="checkbox" name="mapel">Fisika<br>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Jurusan</label></td>
+          <td>:</td>
+          <td>
+            <select name="jurusan">
+              <option value="RPL">RPL</option>
+              <option value="TKJ">TKJ</option>
+              <option value="PG">PG</option>
+            </select><br>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Upload Foto</label></td>
+          <td>:</td>
+          <td><input type="file"><br></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
