@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Ujian HTML</title>
+</head>
+<body>
+
+    <h1>FORMULIR PENDAFTARAN EKSTRAKURIKULER</h1>
+    <img src="Hymne Telkom Schools.jpeg" width="100" alt="Logo Telkom Schools">
+    <hr>
+
+    <h2>FORMULIR PENDAFTARAN EKSTRAKURIKULER</h2>
+    
+    <form action="" method="POST">
+        <table border="1" cellpadding="8" cellspacing="0">
+            <!-- Baris Nama Lengkap -->
+            <tr>
+                <td><label>Nama Lengkap</label></td>
+                <td>:</td>
+                <td><input type="text" required placeholder="Masukkan Nama Lengkap"></td>
+            </tr>
+            
+            <!-- Baris Jenis Kelamin -->
+            <tr>
+                <td><label>Jenis Kelamin</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jenisKelamin" value="Laki-laki"> Laki-Laki
+                    <input type="radio" name="jenisKelamin" value="Perempuan"> Perempuan
+                </td>
+            </tr>
+            
+            <!-- Baris Tanggal Lahir -->
+            <tr>
+                <td><label>Tanggal Lahir</label></td>
+                <td>:</td>
+                <td><input type="date"></td>
+            </tr>
+
+            <!-- BARIS BARU: Pilihan Ekstrakurikuler -->
+            <tr>
+                <td><label>Pilihan Ekstrakurikuler</label></td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="ekstra[]" value="Pramuka"> Pramuka <br>
+                    <input type="checkbox" name="ekstra[]" value="Paskibra"> Paskibra <br>
+                    <input type="checkbox" name="ekstra[]" value="Futsal"> Futsal <br>
+                    <input type="checkbox" name="ekstra[]" value="Basket"> Basket <br>
+                    <input type="checkbox" name="ekstra[]" value="Coding"> Coding Club
+                </td>
+            </tr>
+
+            <!-- BARIS BARU: Tombol Aksi -->
+            <tr>
+                <td colspan="3" align="center">
+                    <button type="submit">Daftar Sekarang</button>
+                    <button type="reset">Kosongkan Form</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+ 
+</body>
+</html>
